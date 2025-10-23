@@ -1,7 +1,7 @@
 import express from "express";
 import multer from "multer";
 import MidiPkg from "@tonejs/midi"; // CommonJS -> importa como default
-const { Midi } = MidiPkg;          // e destrutura o Midi
+const { Midi } = MidiPkg;           // e destrutura o Midi
 
 const app = express();
 const upload = multer();
